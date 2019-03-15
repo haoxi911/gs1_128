@@ -130,7 +130,7 @@ class Printer
 
 
         $this->printBars($barcode);
-        $this->printText($textToEncode);
+        //$this->printText($textToEncode);
     }
 
     public function getBase64($textToEncode)
