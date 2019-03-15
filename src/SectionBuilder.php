@@ -40,6 +40,7 @@ class SectionBuilder
         '12' => [6, 6, 'PAYMENT DATE (12) - must be in YYMMDD format'],
         '15' => [6, 6, 'BEST BEFORE DATE (YYMMDD) - must bi in YYMMDD format'],
         '37' => [1, 8, 'NUMBER OF UNITS CONTAINED (37) - must contains between 1-8 digits'],
+        '92' => [1, 24, 'Company internal information'],
         '3301' => [6, 6, 'CONTAINER GROSS WEIGHT (KG) - must contains 6 chars'],
 		'3900' => [1, 15, 'AMOUNT PAYABLE - SINGLE MONETARY AREA (3900) - must contains between 1-15 digits'],
 		'3901' => [1, 15, 'AMOUNT PAYABLE - SINGLE MONETARY AREA (3901) - must contains between 1-15 digits'],
@@ -53,6 +54,7 @@ class SectionBuilder
 		'3909' => [1, 15, 'AMOUNT PAYABLE - SINGLE MONETARY AREA (3909) - must contains between 1-15 digits'],
         '400' => [1, 30, 'CUSTOMER PURCHASE ORDER NUMBER (400) - must contains between 1-30 digits'],
         '415' => [13, 13, 'GLOBAL LOCATION NUMBER OF THE INVOICE PARTY (415) - must contains excat 13 digits'],
+        '420' => [1, 5, 'Ship to – deliver to postal code within a single postal authority'],
         '8020' => [1, 25, 'PAYMENT SLIP REFERENCE NUMBER (8020) - must contains between 1-25 digits'],
         '96' => [1, 30, 'COMPANY INTERNAL INFORMATION (96) - must contains between 1-30 digits'],
     ];
